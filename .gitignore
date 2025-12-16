@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environment
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Data files (too large for git)
+data/food.csv
+data/food_nutrient.csv
+data/ingredients_processed.csv
+
+# Model checkpoints
+models/saved/
+*.zip
+
+# Logs
+logs/
+*.log
+
+# TensorBoard
+logs/tensorboard/
+
+# Evaluation results
+eval/results/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+temp/
