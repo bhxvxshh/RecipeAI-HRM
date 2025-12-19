@@ -28,13 +28,13 @@ pip install -r requirements.txt
 - USDA FoodData Central: food.csv, food_nutrient.csv
 - Processed ingredient-level nutrients: calories, protein, sodium, carbs, fat
 
-## Current Phase: Option 1 - Simplified Single-Agent
+## Phase: 1 - Simplified Single-Agent
 - One RL policy for ingredient selection
 - Direct constraint satisfaction in reward
 - Recipe diversity tracking
 - HRM-ready state/action/reward design
 
-## Next Phase: Option 2 - Full HRM
+## Phase: 2 - Full HRM 
 - High-level: Weekly nutrient budget planner
 - Low-level: Ingredient selection policy
 - Hierarchical reward shaping
