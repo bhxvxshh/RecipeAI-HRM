@@ -5,20 +5,30 @@ __pycache__/
 *.so
 .Python
 venv/
-venv/
+venv*/
 *.egg-info/
 dist/
 build/
 
-# Data files (too large)
+# Large Data files (exclude from git)
 data/FoodData_Central*/
 data/recipes/recipenlg/RecipeNLG_dataset.csv
+data/recipes/recipenlg/RecipeNLG_code/
+data/recipes/food_com/*.csv
+data/recipes/food_com/*.pkl
+data/recipes/epi_r.csv
+data/recipes/*.json
+data/recipes/*.py
 data/health_datasets/Diabetes-Data/
+data/health_datasets/*.tar
+data/health_datasets/*.zip
+data/ingredients_processed.csv
 
 # Logs
 logs/
 *.log
 tensorboard/
+analysis_output.log
 
 # IDE
 .vscode/
@@ -35,10 +45,9 @@ Thumbs.db
 *.bak
 *~
 
-# Model checkpoints (too large)
-models/saved/*_gpu_*
+# Model checkpoints (keep only final models)
 models/saved/*_anti_overfit_*
-models/saved/recipe_improved_rewards_*
+models/saved/recipe_*_[0-9]*.zip
 models/saved/*.pkl
 
 # Keep only best models
@@ -48,6 +57,10 @@ models/saved/*.pkl
 
 # Evaluation outputs
 evaluation_results.json
+
+# Generated recipes (examples only - not large datasets)
+recipes/*.json
+recipes/*.txt
 
 # Downloaded datasets (keep processed only)
 *.XPT
