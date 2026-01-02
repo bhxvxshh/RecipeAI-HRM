@@ -1,0 +1,88 @@
+{
+  "timestamp": "2025-12-30T10:44:23.490892",
+  "total_ingredients": 324,
+  "constraints": {
+    "calories": {
+      "min": 400,
+      "max": 800,
+      "target": 600
+    },
+    "protein": {
+      "min": 15,
+      "max": 50,
+      "target": 30
+    },
+    "sodium": {
+      "min": 0,
+      "max": 800,
+      "target": 500
+    },
+    "carbs": {
+      "min": 30,
+      "max": 100,
+      "target": 60
+    },
+    "fat": {
+      "min": 10,
+      "max": 30,
+      "target": 20
+    }
+  },
+  "accuracy": {
+    "overall_satisfaction": 57.199999999999996,
+    "constraint_metrics": {
+      "calories": {
+        "accuracy": 0.235,
+        "precision": 1.0,
+        "recall": 0.235,
+        "f1_score": 0.38056680161943324,
+        "satisfaction_rate": 0.235
+      },
+      "protein": {
+        "accuracy": 0.635,
+        "precision": 1.0,
+        "recall": 0.635,
+        "f1_score": 0.7767584097859327,
+        "satisfaction_rate": 0.635
+      },
+      "fat": {
+        "accuracy": 0.36,
+        "precision": 1.0,
+        "recall": 0.36,
+        "f1_score": 0.5294117647058824,
+        "satisfaction_rate": 0.36
+      },
+      "carbs": {
+        "accuracy": 0.79,
+        "precision": 1.0,
+        "recall": 0.79,
+        "f1_score": 0.8826815642458101,
+        "satisfaction_rate": 0.79
+      },
+      "sodium": {
+        "accuracy": 0.84,
+        "precision": 1.0,
+        "recall": 0.84,
+        "f1_score": 0.9130434782608696,
+        "satisfaction_rate": 0.84
+      }
+    },
+    "avg_reward": -344.38011528401216,
+    "std_reward": 123.03219711100185
+  },
+  "efficiency": {
+    "avg_generation_time": 0.11344506978988647,
+    "std_generation_time": 0.0032866893267595376,
+    "recipes_per_second": 8.814838774854799,
+    "avg_memory_mb": 0.012265625,
+    "max_memory_mb": 0.01953125,
+    "avg_cpu_percent": 3.5820000000000003
+  },
+  "rewards": {
+    "mean": -346.92922428699103,
+    "std": 122.2402437368975,
+    "min": -633.7948515411996,
+    "max": 114.38770243375888,
+    "median": -360.6915740096355
+  }
+}

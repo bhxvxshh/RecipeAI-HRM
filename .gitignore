@@ -4,45 +4,27 @@ __pycache__/
 *$py.class
 *.so
 .Python
-env/
 venv/
-ENV/
-.venv
-pip-log.txt
-pip-delete-this-directory.txt
-
-# Virtual environment
 venv/
+*.egg-info/
+dist/
+build/
 
-# Jupyter
-.ipynb_checkpoints/
-*.ipynb
-
-# Data files (too large for git)
-data/food.csv
-data/food_nutrient.csv
-data/ingredients_processed.csv
-
-# Model checkpoints
-models/saved/
-*.zip
+# Data files (too large)
+data/FoodData_Central*/
+data/recipes/recipenlg/RecipeNLG_dataset.csv
+data/health_datasets/Diabetes-Data/
 
 # Logs
 logs/
 *.log
-
-# TensorBoard
-logs/tensorboard/
-
-# Evaluation results
-eval/results/
+tensorboard/
 
 # IDE
 .vscode/
 .idea/
 *.swp
 *.swo
-*~
 
 # OS
 .DS_Store
@@ -50,4 +32,23 @@ Thumbs.db
 
 # Temporary files
 *.tmp
-temp/
+*.bak
+*~
+
+# Model checkpoints (too large)
+models/saved/*_gpu_*
+models/saved/*_anti_overfit_*
+models/saved/recipe_improved_rewards_*
+models/saved/*.pkl
+
+# Keep only best models
+!models/saved/best_model.zip
+!models/saved/best_model_improved.zip
+!models/saved/best_model_gpu_500k.zip
+
+# Evaluation outputs
+evaluation_results.json
+
+# Downloaded datasets (keep processed only)
+*.XPT
+diabetes_data_upload.csv

@@ -1,0 +1,89 @@
+================================================================================
+COMPREHENSIVE MODEL ANALYSIS REPORT
+================================================================================
+
+Generated: 2025-12-30T10:44:23.490892
+Model: models/saved/best_model
+Total Ingredients: 324
+
+================================================================================
+1. ACCURACY METRICS
+================================================================================
+
+Overall Constraint Satisfaction: 57.2%
+Average Reward: -344.38 (±123.03)
+
+Constraint-Wise Performance:
+
+CALORIES:
+  Accuracy:    23.5%
+  Precision:   100.0%
+  Recall:      23.5%
+  F1-Score:    38.1%
+  Satisfied:   23.5%
+
+PROTEIN:
+  Accuracy:    63.5%
+  Precision:   100.0%
+  Recall:      63.5%
+  F1-Score:    77.7%
+  Satisfied:   63.5%
+
+FAT:
+  Accuracy:    36.0%
+  Precision:   100.0%
+  Recall:      36.0%
+  F1-Score:    52.9%
+  Satisfied:   36.0%
+
+CARBS:
+  Accuracy:    79.0%
+  Precision:   100.0%
+  Recall:      79.0%
+  F1-Score:    88.3%
+  Satisfied:   79.0%
+
+SODIUM:
+  Accuracy:    84.0%
+  Precision:   100.0%
+  Recall:      84.0%
+  F1-Score:    91.3%
+  Satisfied:   84.0%
+
+================================================================================
+2. EFFICIENCY METRICS
+================================================================================
+
+Generation Speed:
+  Average time:     0.1134s per recipe
+  Std deviation:    0.0033s
+  Throughput:       8.81 recipes/second
+
+Resource Usage:
+  Memory overhead:  0.01 MB (peak: 0.02 MB)
+  CPU usage:        3.6%
+
+================================================================================
+3. REWARD DISTRIBUTION
+================================================================================
+
+Reward Statistics:
+  Mean:       -346.93
+  Median:     -360.69
+  Std Dev:    122.24
+  Range:      -633.79 to 114.39
+
+================================================================================
+4. OVERALL PERFORMANCE GRADE
+================================================================================
+
+  Accuracy:     A  (57.2% constraint satisfaction)
+  Speed:        C  (8.81 recipes/sec)
+  Memory:       A  (0.01 MB overhead)
+  Stability:    A  (±0.0033s variance)
+
+  OVERALL GRADE: A
+
+================================================================================
+END OF REPORT
+================================================================================

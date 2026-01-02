@@ -151,7 +151,6 @@ def evaluate_hrm_system(hrm_system: HierarchicalRecipeSystem, n_weeks: int = 5):
         deviations = [m[f'{nutrient}_deviation_pct'] for m in all_metrics]
         print(f"{nutrient.capitalize()} avg deviation: {np.mean(deviations):.1f}% ± {np.std(deviations):.1f}%")
 
-
 if __name__ == "__main__":
     import argparse
     
