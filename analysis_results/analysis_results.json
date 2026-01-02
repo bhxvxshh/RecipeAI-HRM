@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-12-30T10:44:23.490892",
+  "timestamp": "2026-01-02T20:05:26.161613",
   "total_ingredients": 324,
   "constraints": {
     "calories": {
@@ -29,60 +29,60 @@
     }
   },
   "accuracy": {
-    "overall_satisfaction": 57.199999999999996,
+    "overall_satisfaction": 81.2,
     "constraint_metrics": {
       "calories": {
-        "accuracy": 0.235,
+        "accuracy": 0.895,
         "precision": 1.0,
-        "recall": 0.235,
-        "f1_score": 0.38056680161943324,
-        "satisfaction_rate": 0.235
+        "recall": 0.895,
+        "f1_score": 0.9445910290237467,
+        "satisfaction_rate": 0.895
       },
       "protein": {
-        "accuracy": 0.635,
+        "accuracy": 0.655,
         "precision": 1.0,
-        "recall": 0.635,
-        "f1_score": 0.7767584097859327,
-        "satisfaction_rate": 0.635
+        "recall": 0.655,
+        "f1_score": 0.7915407854984895,
+        "satisfaction_rate": 0.655
       },
       "fat": {
-        "accuracy": 0.36,
+        "accuracy": 0.745,
         "precision": 1.0,
-        "recall": 0.36,
-        "f1_score": 0.5294117647058824,
-        "satisfaction_rate": 0.36
+        "recall": 0.745,
+        "f1_score": 0.8538681948424068,
+        "satisfaction_rate": 0.745
       },
       "carbs": {
-        "accuracy": 0.79,
+        "accuracy": 0.98,
         "precision": 1.0,
-        "recall": 0.79,
-        "f1_score": 0.8826815642458101,
-        "satisfaction_rate": 0.79
+        "recall": 0.98,
+        "f1_score": 0.98989898989899,
+        "satisfaction_rate": 0.98
       },
       "sodium": {
-        "accuracy": 0.84,
+        "accuracy": 0.785,
         "precision": 1.0,
-        "recall": 0.84,
-        "f1_score": 0.9130434782608696,
-        "satisfaction_rate": 0.84
+        "recall": 0.785,
+        "f1_score": 0.8795518207282913,
+        "satisfaction_rate": 0.785
       }
     },
-    "avg_reward": -344.38011528401216,
-    "std_reward": 123.03219711100185
+    "avg_reward": 421.3108941321609,
+    "std_reward": 633.9988219023455
   },
   "efficiency": {
-    "avg_generation_time": 0.11344506978988647,
-    "std_generation_time": 0.0032866893267595376,
-    "recipes_per_second": 8.814838774854799,
-    "avg_memory_mb": 0.012265625,
-    "max_memory_mb": 0.01953125,
-    "avg_cpu_percent": 3.5820000000000003
+    "avg_generation_time": 0.11611452579498291,
+    "std_generation_time": 0.0024514512968232777,
+    "recipes_per_second": 8.612186917644099,
+    "avg_memory_mb": 0.0089453125,
+    "max_memory_mb": 0.015625,
+    "avg_cpu_percent": 3.7480000000000007
   },
   "rewards": {
-    "mean": -346.92922428699103,
-    "std": 122.2402437368975,
-    "min": -633.7948515411996,
-    "max": 114.38770243375888,
-    "median": -360.6915740096355
+    "mean": 537.0771173572813,
+    "std": 640.8270929044853,
+    "min": -900.0498916974504,
+    "max": 1772.408886932164,
+    "median": 649.3216709454036
   }
 }

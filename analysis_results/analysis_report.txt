@@ -2,7 +2,7 @@
 COMPREHENSIVE MODEL ANALYSIS REPORT
 ================================================================================
 
-Generated: 2025-12-30T10:44:23.490892
+Generated: 2026-01-02T20:05:26.161613
 Model: models/saved/best_model
 Total Ingredients: 324
 
@@ -10,77 +10,77 @@ Total Ingredients: 324
 1. ACCURACY METRICS
 ================================================================================
 
-Overall Constraint Satisfaction: 57.2%
-Average Reward: -344.38 (±123.03)
+Overall Constraint Satisfaction: 81.2%
+Average Reward: 421.31 (±634.00)
 
 Constraint-Wise Performance:
 
 CALORIES:
-  Accuracy:    23.5%
+  Accuracy:    89.5%
   Precision:   100.0%
-  Recall:      23.5%
-  F1-Score:    38.1%
-  Satisfied:   23.5%
+  Recall:      89.5%
+  F1-Score:    94.5%
+  Satisfied:   89.5%
 
 PROTEIN:
-  Accuracy:    63.5%
+  Accuracy:    65.5%
   Precision:   100.0%
-  Recall:      63.5%
-  F1-Score:    77.7%
-  Satisfied:   63.5%
+  Recall:      65.5%
+  F1-Score:    79.2%
+  Satisfied:   65.5%
 
 FAT:
-  Accuracy:    36.0%
+  Accuracy:    74.5%
   Precision:   100.0%
-  Recall:      36.0%
-  F1-Score:    52.9%
-  Satisfied:   36.0%
+  Recall:      74.5%
+  F1-Score:    85.4%
+  Satisfied:   74.5%
 
 CARBS:
-  Accuracy:    79.0%
+  Accuracy:    98.0%
   Precision:   100.0%
-  Recall:      79.0%
-  F1-Score:    88.3%
-  Satisfied:   79.0%
+  Recall:      98.0%
+  F1-Score:    99.0%
+  Satisfied:   98.0%
 
 SODIUM:
-  Accuracy:    84.0%
+  Accuracy:    78.5%
   Precision:   100.0%
-  Recall:      84.0%
-  F1-Score:    91.3%
-  Satisfied:   84.0%
+  Recall:      78.5%
+  F1-Score:    88.0%
+  Satisfied:   78.5%
 
 ================================================================================
 2. EFFICIENCY METRICS
 ================================================================================
 
 Generation Speed:
-  Average time:     0.1134s per recipe
-  Std deviation:    0.0033s
-  Throughput:       8.81 recipes/second
+  Average time:     0.1161s per recipe
+  Std deviation:    0.0025s
+  Throughput:       8.61 recipes/second
 
 Resource Usage:
   Memory overhead:  0.01 MB (peak: 0.02 MB)
-  CPU usage:        3.6%
+  CPU usage:        3.7%
 
 ================================================================================
 3. REWARD DISTRIBUTION
 ================================================================================
 
 Reward Statistics:
-  Mean:       -346.93
-  Median:     -360.69
-  Std Dev:    122.24
-  Range:      -633.79 to 114.39
+  Mean:       537.08
+  Median:     649.32
+  Std Dev:    640.83
+  Range:      -900.05 to 1772.41
 
 ================================================================================
 4. OVERALL PERFORMANCE GRADE
 ================================================================================
 
-  Accuracy:     A  (57.2% constraint satisfaction)
-  Speed:        C  (8.81 recipes/sec)
+  Accuracy:     A  (81.2% constraint satisfaction)
+  Speed:        C  (8.61 recipes/sec)
   Memory:       A  (0.01 MB overhead)
-  Stability:    A  (±0.0033s variance)
+  Stability:    A  (±0.0025s variance)
 
   OVERALL GRADE: A
 
