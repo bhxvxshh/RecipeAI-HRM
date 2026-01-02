@@ -335,7 +335,3 @@ If you use this work in your research, please cite:
 
 ---
 
-**Last Updated**: January 2, 2026  
-**Model Version**: Ultra-Performance Final (800k timesteps)  
-**Status**: ✅ Publication-Ready  
-**Overall Grade**: A
